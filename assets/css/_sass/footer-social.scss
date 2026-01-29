@@ -38,7 +38,7 @@
 .fa-researchgate,
 .fa-bluesky,
 .fa-envelope,
-.fa-quora,
+.fa-itch,
 .fa-instagram,
 .fa-stack-overflow {
   font-size: 25px;
@@ -114,14 +114,14 @@
   border-color: #74C0FC;
 }
 
-.rounded-social-buttons .social-button.quora {
-  background: #a82400;
+.rounded-social-buttons .social-button.itch {
+  background: #ff244a;
 }
 
-.rounded-social-buttons .social-button.quora:hover, .rounded-social-buttons .social-button.quora:focus {
-  color: #a82400;
+.rounded-social-buttons .social-button.itch:hover, .rounded-social-buttons .social-button.itch:focus {
+  color: #ff244a;
   background: #fefefe;
-  border-color: #a82400;
+  border-color: #ff244a;
 }
 
 .rounded-social-buttons .social-button.instagram {

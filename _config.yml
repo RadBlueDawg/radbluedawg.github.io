@@ -1,11 +1,11 @@
 ### your site title here
 
-title: Your Name
+title: RadBlueDawg
 description: subtitle | affiliations | motto
 
 baseurl: /gradfolio #name of GitHub repository
 url: "" #custom url to be used instead of GitHub repository
-email: #
+email: radbluedawg@gmail.com
 
 # Pagination
 paginate: 4
@@ -13,15 +13,15 @@ permalink: /blog/:year/:title/
 paginate_path: /blog/page:num/
 
 # Social media links in footer
-linkedin: "#"
-stackoverflow: "#"
-github: "#"
-researchgate: "#"
-orcid: "#"
-quora: "#"
-instagram: "#"
-facebook: "#"
-bluesky: "#"
+linkedin: "radbluedawg"
+#stackoverflow: "#"
+github: "RadBlueDawg"
+#researchgate: "#"
+#orcid: "#"
+itch: "radbluedawg"
+#instagram: "#"
+#facebook: "#"
+#bluesky: "#"
 
 # Markdown
 highlighter: rouge

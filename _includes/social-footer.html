@@ -62,12 +62,12 @@ target="_blank">
 </a>
 {%- endif -%}
 
-{%- if site.quora -%}
-<a title="{{ _locale_string_follow | replace: '[NAME]', 'Quora' }}"
-class="social-button quora" itemprop="sameAs"
-href="https://www.quora.com/profile/{{ site.quora }}"
+{%- if site.itch -%}
+<a title="{{ _locale_string_follow | replace: '[NAME]', 'itch.io' }}"
+class="social-button itch" itemprop="sameAs"
+href="https://{{ site.itch }}.itch.io"
 target="_blank">
-<i class="fab fa-quora"></i>
+<i class="fab fa-itch-io"></i>
 </a>
 {%- endif -%}
 
