@@ -3,9 +3,9 @@
 title: RadBlueDawg
 description: subtitle | affiliations | motto
 
-baseurl: / #name of GitHub repository
-url: "https://radbluedawg.github.io" #custom url to be used instead of GitHub repository
-email: radbluedawg@gmail.com
+baseurl: "" #name of GitHub repository
+url: "https://radbluedawg.com" #custom url to be used instead of GitHub repository
+email: steven@radbluedawg.com
 
 # Pagination
 paginate: 4
