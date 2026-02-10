@@ -1,7 +1,7 @@
 ### your site title here
 
 title: RadBlueDawg
-description: subtitle | affiliations | motto
+description: Development | Game Dev | Whatever
 
 baseurl: "" #name of GitHub repository
 url: "https://radbluedawg.com" #custom url to be used instead of GitHub repository
@@ -50,9 +50,6 @@ collections:
       - shortProject.md
       - longerProjectTitle.md
       - redirect.md
-      - project4.md
-      - project5.md
-      - project6.md
 
 sass:
   sass_dir: /assets/css/_sass
