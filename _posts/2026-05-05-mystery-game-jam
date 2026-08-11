@@ -1,0 +1,34 @@
+---
+layout: post
+title:  "Mystery Game Jam 2026 Retrospective"
+---
+This year, I’ve challenged myself to participate in two game jams. I’m trying to grow my skills as a developer, especially in the realm of game dev, and jams are a great way to learn in a constrained environment. While scrolling through the different jams on itch.io, I stumbled upon the Mystery Game Jam. It appealed to me for two reasons: I enjoy the mystery genre as a whole, and I found the idea of the long timeline (a full month) intriguing.
+
+The Concept
+============
+The concept of the game needed to be mystery-focused first and foremost, and while trawling through Mystery Gamedev’s Substack for ideas, I found [a post](https://mysterygamedev.substack.com/p/looking-ahead-5-mystery-game-subgenres-for-2025) that highlighted Hacking Sims as the framework for a mystery game. That idea meshed well with a preexisting idea for a space station AI management sim idea I’ve had kicking around for a while. I had a couple of sources I wanted to draw on:
+
+Orwell
+------------
+[![Orwell: Keeping an Eye On You](/assets/images/mgj-orwell.png "A screenshot of the game Orwell")](https://store.steampowered.com/app/491950/Orwell_Keeping_an_Eye_On_You/)
+Orwell was one of the examples given of a Hacking Sim game by the Mystery Gamedev. I particularly wanted to take inspiration from the data point collection and mapping systems. I liked the profiles you build up slowly as the game progresses, and the relationship mapping that follows. I also liked the system of pulling information from a variety of disparate sources (texts, blogs, articles, etc.) to feed the ever-growing data map.
+
+The Operator
+------------
+[![The Operator](/assets/images/mgj-operator.png "A screenshot of the game The Operator")](https://store.steampowered.com/app/1771980/The_Operator/)
+The Operator was another example from the Mystery Gamedev post, and another one with a sublime interface. There was something about the near-perfect replica of a workstation for the main interface of the game that tickled my brain in just the right ways. I also liked the aspect of using puzzles to unlock additional information.
+
+Shadows of Doubt
+------------
+[![Shadows of Doubt](/assets/images/mgj-shadowsofdoubt.png "A screenshot of the game Shadows of Doubt")](https://store.steampowered.com/app/986130/Shadows_of_Doubt/)
+The connection between Shadows of Doubt and mystery games should be blindingly obvious, but relating it to the previous two inspirations might be a little less clear. I wanted Shadows of Doubt to serve as the blueprint for what shape the primary gameplay loop would take. The “crime reported, no go solve it” aspect of the game. Being able to pin what you want to the “corkboard” of the game was also alluring to me.
+
+The Result
+============
+I fear my ambition may have exceeded my grasp as a solo indie dev, especially one so early in their journey. The final product is functional, albeit severely pared down from the initial concept I had built up in my head. The player gets a name to start their investigation, a searchable manifest of station crew and visitors, and the ability to read communications between people on the station.
+
+As I said, I imagined there being far more data points than just communications, but time got the better of me. I think the timeline of the jam was the thing that doomed me the most. Having a full month makes it easy to get complacent and put off work, and I think I’ll be avoiding long-timeline jams in the future. 
+
+Though the visuals are rough, I’m proud of the work I did to get the desktop emulator working. Getting the windows to minimize/maximize and be draggable weren’t as complicated as I was afraid they would be, but I remember having issues with window ordering basically up to the deadline. It’s still very much rough around the edges (depending on where you click on an open window, the window below it will act like it was clicked and pop on top of the other window), but for my first time doing something like this I was happy with where I ended up.
+
+If you’ve made it this far and the concept sounds interesting, [you can try it out on its Itch page](https://radbluedawg.itch.io/hostile-action-detected). I’ve been informed there are a couple mispellings (whoops), so be aware of that if you’re not getting results from some of the search forms.
