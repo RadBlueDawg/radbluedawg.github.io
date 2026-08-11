@@ -11,16 +11,19 @@ The concept of the game needed to be mystery-focused first and foremost, and whi
 Orwell
 ------------
 [![Orwell: Keeping an Eye On You](/assets/images/mgj-orwell.png "A screenshot of the game Orwell")](https://store.steampowered.com/app/491950/Orwell_Keeping_an_Eye_On_You/)
+
 Orwell was one of the examples given of a Hacking Sim game by the Mystery Gamedev. I particularly wanted to take inspiration from the data point collection and mapping systems. I liked the profiles you build up slowly as the game progresses, and the relationship mapping that follows. I also liked the system of pulling information from a variety of disparate sources (texts, blogs, articles, etc.) to feed the ever-growing data map.
 
 The Operator
 ------------
 [![The Operator](/assets/images/mgj-operator.png "A screenshot of the game The Operator")](https://store.steampowered.com/app/1771980/The_Operator/)
+
 The Operator was another example from the Mystery Gamedev post, and another one with a sublime interface. There was something about the near-perfect replica of a workstation for the main interface of the game that tickled my brain in just the right ways. I also liked the aspect of using puzzles to unlock additional information.
 
 Shadows of Doubt
 ------------
 [![Shadows of Doubt](/assets/images/mgj-shadowsofdoubt.png "A screenshot of the game Shadows of Doubt")](https://store.steampowered.com/app/986130/Shadows_of_Doubt/)
+
 The connection between Shadows of Doubt and mystery games should be blindingly obvious, but relating it to the previous two inspirations might be a little less clear. I wanted Shadows of Doubt to serve as the blueprint for what shape the primary gameplay loop would take. The “crime reported, no go solve it” aspect of the game. Being able to pin what you want to the “corkboard” of the game was also alluring to me.
 
 The Result
