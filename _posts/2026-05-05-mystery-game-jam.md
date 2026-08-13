@@ -28,7 +28,7 @@ The connection between Shadows of Doubt and mystery games should be blindingly o
 
 The Result
 ============
-I fear my ambition may have exceeded my grasp as a solo indie dev, especially one so early in their journey. The final product is functional, albeit severely pared down from the initial concept I had built up in my head. The player gets a name to start their investigation, a searchable manifest of station crew and visitors, and the ability to read communications between people on the station.
+I fear my ambition may have exceeded my grasp as a solo indie dev, especially one so early in their journey. The final product *is* functional, albeit severely pared down from the initial concept I had built up in my head. The player gets a name to start their investigation, a searchable manifest of station crew and visitors, and the ability to read communications between people on the station.
 
 As I said, I imagined there being far more data points than just communications, but time got the better of me. I think the timeline of the jam was the thing that doomed me the most. Having a full month makes it easy to get complacent and put off work, and I think I’ll be avoiding long-timeline jams in the future. 
 
