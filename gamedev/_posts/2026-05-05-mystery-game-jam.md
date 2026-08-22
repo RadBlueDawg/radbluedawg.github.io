@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Mystery Game Jam 2026 Retrospective"
+tags:   Godot GameJam MysteryGameJam
 ---
 This year, I’ve challenged myself to participate in two game jams. I’m trying to grow my skills as a developer, especially in the realm of game dev, and jams are a great way to learn in a constrained environment. While scrolling through the different jams on itch.io, I stumbled upon the Mystery Game Jam. It appealed to me for two reasons: I enjoy the mystery genre as a whole, and I found the idea of the long timeline (a full month) intriguing.
 

@@ -1,7 +1,7 @@
 ### your site title here
 
 title: RadBlueDawg
-description: Development | Game Dev | Whatever
+description: Development Enthusiast
 
 baseurl: "" #name of GitHub repository
 url: "https://radbluedawg.com" #custom url to be used instead of GitHub repository
@@ -9,7 +9,7 @@ email: steven@radbluedawg.com
 
 # Pagination
 paginate: 4
-permalink: /blog/:year/:title/
+permalink: /blog/:categories/:year/:title/
 paginate_path: /blog/page:num/
 
 # Social media links in footer
