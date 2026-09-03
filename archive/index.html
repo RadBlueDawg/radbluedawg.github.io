@@ -1,0 +1,71 @@
+---
+layout: default
+permalink: /archive/
+title: Archive
+---
+<h1 class="post-headline">Archive</h1>
+<div class="article-list">
+	<div class="archive-tabs">
+		<input type="radio" id="tabYear" name="tab-control" checked>
+		<input type="radio" id="tabCategory" name="tab-control">
+		<input type="radio" id="tabTag" name="tab-control">
+		<ul class="tab-buttons">
+			<li title="By Year"><label for="tabYear" role="button">By Year</label></li>
+			<li title="By Category"><label for="tabCategory" role="button">By Category</label></li>
+			<li title="By Tag"><label for="tabTag" role="button">By Tag</label></li>
+		</ul>
+		<div class="slider">
+			<div class="indicator"></div>
+		</div>
+		<div class="content">
+			<section>
+				<h2>By Year</h2>
+				<ul>
+				{% assign years = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+
+				{% for year in years %}
+				<li>
+					<a href="/archive/year/{{ year.name | slugify }}">
+						{{ year.name }} <span>({{ year.size }})</span>
+					</a>
+				</li>
+				{% endfor %}
+				</ul>
+			</section>
+			<section>
+				<h2>By Category</h2>
+				<ul>
+					{% assign sorted_categories = site.categories | sort: [0] %}
+
+					{% for category in sorted_categories %}
+					{% assign category_name = category[0] %}
+					{% assign post_count = category[1] | size %}
+
+					<li>
+						<a href="/archive/category/{{ category_name | slugify }}">
+							{{ category_name }} <span>({{ post_count }})</span>
+						</a>
+					</li>
+					{% endfor %}
+				</ul>
+			</section>
+			<section>
+				<h2>By Tag</h2>
+				<ul>
+					{% assign sorted_tags = site.tags | sort: [0] %}
+
+					{% for tag in sorted_tags %}
+					{% assign tag_name = tag[0] %}
+					{% assign post_count = tag[1] | size %}
+
+					<li>
+						<a href="/archive/tag/{{ tag_name | slugify }}">
+							{{ tag_name }} <span>({{ post_count }})</span>
+						</a>
+					</li>
+					{% endfor %}
+				</ul>
+			</section>
+		</div>
+	</div>
+</div>

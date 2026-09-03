@@ -51,6 +51,18 @@ collections:
       - longerProjectTitle.md
       - redirect.md
 
+
+jekyll-archives:
+  enabled:
+    - year
+    - categories
+    - tags
+  layout: archive
+  permalinks:
+    year: '/archive/year/:year/'
+    tag: '/archive/tag/:name/'
+    category: '/archive/category/:name/'
+
 sass:
   sass_dir: /assets/css/_sass
   style: compressed
@@ -67,3 +79,4 @@ plugins:
   - jekyll-paginate
   - jekyll-email-protect
   - jekyll-target-blank
+  - jekyll-archives
