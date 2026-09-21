@@ -1,9 +1,3 @@
-@use 'sass:color';
-
-$projectbox: #c3e1c9 !default;
-$projectbox-dark: color.adjust(#98a0ac, $lightness: 2%) !default;
-$projectbox-text:  #1e2126;
-
 /* Project Page */
 .ProjectContainer {
   max-width: 800px;

@@ -4,6 +4,11 @@
 
 
 @charset "utf-8";
+@use '_sass/footer-social';
+@use '_sass/footer';
+@use '_sass/google-fonts';
+@use '_sass/syntax-highlighting';
+@use '_sass/archive';
 
 // Width of the content area
 $content-width:    800px;
@@ -18,17 +23,10 @@ $on-laptop:        1000px;
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-// Do not make any changes to this file. Go to /_sass and find the appropriate SCSS file and make changes there.
-
-// JN: For now, split @import to anable conditional import of CSS. Also. @import may be deprecated soon so plan
-// for this change
+// @import is being deprecated, but I can't figure out how to fix these last imports
+// So they're staying until I decide to give a damn.
 
 @import 'variables';
-@import 'footer-social';
 @import 'projects';
 @import 'profile';
-@import 'footer';
 @import 'style';
-@import 'google-fonts';
-@import 'syntax-highlighting';
-@import 'archive';
