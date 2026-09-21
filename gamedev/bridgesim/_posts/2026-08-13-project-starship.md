@@ -28,7 +28,7 @@ The Future
 So what are the next steps? A better name would be a start[^9]. And as I've already alluded to, I've got another playtest lined up. I'm already planning on running a different mission, in an attempt to see how much can actually be done with the EmptyEpsilon scripting system. We've got ideas for a custom mission in the future, but first I need to see how much I can do out of the box and how much work our ideas will take. We've even got a couple new pieces of tech, including mice to eliminate the need to use the touchpads and a flight sim joystick for the helms station[^10]. It's a promising start, and I'm excited to see where we can take this idea.
 
 [^1]: Since 2023!?
-[^2]: Part of the impetus behind the [challenge I set for myself with game jams]({% post_url 2026-05-05-mystery-game-jam %})
+[^2]: Part of the impetus behind the [challenge I set for myself with game jams]({% post_url GameDev/2026-05-05-mystery-game-jam %})
 [^3]: I consider the Challenger Center as one of the precursors to my love of RPGs
 [^4]: To be fair, the Challenger Center had us travelling to *Mars*, so we can take some liberties
 [^5]: And maybe help us get a bit of funding to make the experience a bit more immersive

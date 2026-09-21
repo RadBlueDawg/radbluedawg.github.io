@@ -35,7 +35,7 @@ title: Archive
 			<section>
 				<h2>By Category</h2>
 				<ul>
-					{% assign sorted_categories = site.categories | sort: [0] %}
+					{% assign sorted_categories = site.categories | sort %}
 
 					{% for category in sorted_categories %}
 					{% assign category_name = category[0] %}
@@ -52,7 +52,7 @@ title: Archive
 			<section>
 				<h2>By Tag</h2>
 				<ul>
-					{% assign sorted_tags = site.tags | sort: [0] %}
+					{% assign sorted_tags = site.tags | sort %}
 
 					{% for tag in sorted_tags %}
 					{% assign tag_name = tag[0] %}

@@ -1,6 +1,9 @@
+@use 'sass:map';
+@use 'sass:color';
+
 /* Tab stylings modified from https://codepen.io/woranov/pen/NRqLWK */
 $accent: #60c17d;
-$accent-inactive: desaturate($accent, 85%);
+$accent-inactive: color.adjust($accent, $saturation: -85%);
 $secondary: $accent-inactive;
 
 /* tab setting */
@@ -78,7 +81,7 @@ $content-selector: "~ .content > section";
         li {
             box-sizing: border-box;
             flex: 1;
-            width: #{100%/$tab-count};
+            width: #{calc(100% / $tab-count)};
             padding: 0 10px;
             text-align: center;
 
@@ -111,10 +114,10 @@ $content-selector: "~ .content > section";
                 &:focus,
                 &:active {
                     outline: 0;
-                    color: lighten($secondary, 15%);
+                    color: color.adjust($secondary, $lightness: 15%);
 
                     svg {
-                        fill: lighten($secondary, 15%);
+                        fill: color.adjust($secondary, $lightness: 15%);
                     }
                 }
             }
@@ -123,7 +126,7 @@ $content-selector: "~ .content > section";
 
     .slider {
         position: relative;
-        width: #{100%/$tab-count};
+        width: #{calc(100% / $tab-count)};
         transition: all 0.33s cubic-bezier(0.38, 0.8, 0.32, 1.07);
 
         .indicator {
@@ -182,7 +185,7 @@ $content-selector: "~ .content > section";
                     fill: $accent;
                 }
 
-                @media (max-width: map-get($breakpoints, small)) {
+                @media (max-width: map.get($breakpoints, small)) {
                     background: rgba(0, 0, 0, 0.08);
                 }
             }
@@ -201,7 +204,7 @@ $content-selector: "~ .content > section";
         }
     }
 
-    @media (max-width: map-get($breakpoints, medium)) {
+    @media (max-width: map.get($breakpoints, medium)) {
         ul li label {
             white-space: initial;
 
@@ -215,7 +218,7 @@ $content-selector: "~ .content > section";
         }
     }
 
-    @media (max-width: map-get($breakpoints, small)) {
+    @media (max-width: map.get($breakpoints, small)) {
         ul li label {
             padding: 5px;
             border-radius: 5px;
