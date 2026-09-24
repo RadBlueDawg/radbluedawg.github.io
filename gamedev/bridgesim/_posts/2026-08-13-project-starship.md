@@ -19,7 +19,7 @@ Before we could start thinking *too* big, we needed a proof of concept. Somethin
 
 I had things running well enough that we were even able to do a full "dry run" with some grad students my dad was able to round up. I took a half-GM/half-captain role, and we had five grad students running the officer stations. A bit nerve-wracking of a first run[^8], but everything went super smoothly yet again.
 
-![The Dry Run](/assets/images/bs-dryrun.jpg "Five volunteers man laptops and control a simulated starship while I direct and assist them")
+![Five volunteers man laptops and control a simulated starship while I direct and assist them](/assets/images/bs-dryrun.jpg "The Dry Run")
 
 Not to say the run was without its kinks. Everyone's controls were limited to the laptop touchpads, which aren't exactly designed for finer control. There were also a few points of the mission I was running where things either got a bit stuck or confusing. Not as much of an issue since I was running the whole thing, but still something to consider for future improvements. But regardless of the minor issues that popped up, everyone had *fun*. Enough fun that I'll be running it again for (at least some) of them in the near future.
 

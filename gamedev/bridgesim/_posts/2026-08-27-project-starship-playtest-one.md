@@ -5,7 +5,7 @@ tags:   EmptyEpsilon
 ---
 Project Starship has had another successful test run, this time with a few modifications from the dry run we had a few weeks ago. EAPS Outreach hosts a monthly game night, which provided the perfect place to get volunteers to playtest[^1]. The second outing of the bridge sim also went super well, but there were a couple more issues that popped up this time.
 
-![My Brave Volunteers](/assets//images/bs-playtest1-volunteers.jpg "Five volunteers man laptops in a crowded room with me directing and assisting them")
+![Five volunteers man laptops in a crowded room with me directing and assisting them](/assets//images/bs-playtest1-volunteers.jpg "My Brave Volunteers")
 
 The Good
 ============
@@ -17,7 +17,7 @@ The Bad
 ============
 As I mentioned before, there were a few notable issues this time. The most prominent of those was the scenario I picked. During the dry run, I had run the Early Evaluation Exercise scenario. It was a fairly good tutorial mission with a few minor kinks[^3], but it's also a time-consuming scenario to run, coming out to about an hour and a half during the dry run. In an effort to find something more condensed, I went with the Kessler scenario. It's based on the real-life [Kessler syndrome](https://en.wikipedia.org/wiki/Kessler_syndrome), and its description even says it was designed to be run with students in classrooms. However, there are two things holding it back from being useful for our purposes. First, there's too much downtime for some of the stations. Helms, Science, and Weapons get most of the spotlight for this scenario, leaving Relay and Engineering to sit around for most of it, waiting for something to do. There are times where they do get *something*, but for the majority of the scenario that isn't the case. Second, we couldn't actually finish the scenario. After the halfway point, the instructions provided to the players get sparser and less clear. They followed the instructions to the best of their ability, but progress ground to a halt and there was no way to figure out what was expected of them next. Even I wasn't able to figure out anything from the GM screen. Eventually, we got bored and tried out the Self Destruct feature that Engineering has access to before switching over to a basic combat scenario.
 
-![Self Destruct Initiated](/assets//images/bs-playtest1-kesslerends.jpg "Five volunteers in the process of confirming the self destruct sequence")
+![Five volunteers in the process of confirming the self destruct sequence](/assets//images/bs-playtest1-kesslerends.jpg "Self Destruct Initiated")
 
 Scenario choices aside, everything else was fairly minor. Distance between the stations and volume became an issue, especially in a room as packed as that one was. That'll be easy to fix by reorganizing how the stations are laid out, likely by putting them in a horseshoe shape instead of a line. Time (and future testing) will tell. There was also an issue with some of the controls I had mapped onto the joystick. I tried to put as many of the Helms functions onto the joystick as I could, leading to some ...*creative* binding choices. Some of them, like the jump distance control, ended up being too sensitive to select precise distances. Others were just plain unintuitive. I think there's a happy medium between the joystick controls and what remains accessible only on the control panel, but again that'll take time and testing[^4].
 
